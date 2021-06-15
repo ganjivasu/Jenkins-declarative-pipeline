@@ -3,9 +3,7 @@ currentBuild.displayName = "online-shopping-#"+currentBuild.number
 pipeline{
     agent any
     
-    environment{
-        
-    }
+   
     stages{
         stage("Git Checkout"){
             steps{
